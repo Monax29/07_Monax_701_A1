@@ -1,0 +1,16 @@
+{
+  "name": "task8_scriptsinpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node server.js",
+    "test": "echo \"Running test script...\"",
+    "say-hello": "echo Hello Monax!",
+    "show-date": "node -e \"console.log(new Date())\"",
+    "greet": "node -e \"console.log('Welcome to Task 8!')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

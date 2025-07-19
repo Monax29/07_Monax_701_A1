@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX GetHello</title>
+</head>
+<body>
+    <h2>Response from Server:</h2>
+    <p id="response"></p>
+
+    <script>
+        fetch('/gethello')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('response').innerText = data;
+            })
+            .catch(err => console.error(err));
+    </script>
+</body>
+</html>
